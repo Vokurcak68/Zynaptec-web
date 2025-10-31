@@ -1,6 +1,5 @@
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 
@@ -33,13 +32,11 @@ export default function Layout({ children }) {
           <div className="flex justify-between items-start py-0">
             <div className="pt-4">
               <Link href="/" className="hover:scale-105 transition-transform">
-              <Image
+              <img
                 src="/logo-zynaptec.png"
                 alt="Zynaptec"
                 width={200}
                 height={60}
-                priority
-                unoptimized
               />
               </Link>
             </div>
@@ -112,12 +109,11 @@ export default function Layout({ children }) {
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
           <div>
             <div className="mb-4">
-              <Image
+              <img
                 src="/logo-zynaptec.png"
                 alt="Zynaptec"
                 width={150}
                 height={45}
-                unoptimized
               />
             </div>
             <p className="text-sm text-gray-400">
