@@ -34,11 +34,12 @@ export default function Layout({ children }) {
             <div className="pt-4">
               <Link href="/" className="hover:scale-105 transition-transform">
               <Image
-                src="/Logo_Zynaptec.png"
+                src="/logo-zynaptec.png"
                 alt="Zynaptec"
                 width={200}
                 height={60}
                 priority
+                unoptimized
               />
               </Link>
             </div>
@@ -112,10 +113,11 @@ export default function Layout({ children }) {
           <div>
             <div className="mb-4">
               <Image
-                src="/Logo_Zynaptec.png"
+                src="/logo-zynaptec.png"
                 alt="Zynaptec"
                 width={150}
                 height={45}
+                unoptimized
               />
             </div>
             <p className="text-sm text-gray-400">
