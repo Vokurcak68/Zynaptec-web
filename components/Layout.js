@@ -33,7 +33,7 @@ export default function Layout({ children }) {
             <div className="pt-4">
               <Link href="/" className="hover:scale-105 transition-transform">
               <img
-                src="/logo-zynaptec.png"
+                src="/zynaptec-logo.png"
                 alt="Zynaptec"
                 width={200}
                 height={60}
@@ -110,7 +110,7 @@ export default function Layout({ children }) {
           <div>
             <div className="mb-4">
               <img
-                src="/logo-zynaptec.png"
+                src="/zynaptec-logo.png"
                 alt="Zynaptec"
                 width={150}
                 height={45}
