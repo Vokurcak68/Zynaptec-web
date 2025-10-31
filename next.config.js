@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Force fresh build
+  // Force fresh build every time
   generateBuildId: async () => {
     return `build-${Date.now()}`
   },
