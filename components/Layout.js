@@ -33,10 +33,10 @@ export default function Layout({ children }) {
           <div className="flex justify-between items-start py-0">
             <div className="pt-4">
               <Link href="/" className="hover:scale-105 transition-transform">
-              <Image 
-                src="/Logo_zynaptec.png" 
-                alt="Zynaptec" 
-                width={200} 
+              <Image
+                src="/Logo_Zynaptec.png"
+                alt="Zynaptec"
+                width={200}
                 height={60}
                 priority
               />
@@ -111,10 +111,10 @@ export default function Layout({ children }) {
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
           <div>
             <div className="mb-4">
-              <Image 
-                src="/Logo_zynaptec.png" 
-                alt="Zynaptec" 
-                width={150} 
+              <Image
+                src="/Logo_Zynaptec.png"
+                alt="Zynaptec"
+                width={150}
                 height={45}
               />
             </div>
