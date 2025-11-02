@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react'
 const navItems = [
   { label: 'Domů', href: '/' },
   { label: 'Služby', href: '/sluzby' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Tým', href: '/tym' },
   { label: 'Kontakt', href: '/kontakt' },
 ]
@@ -133,6 +134,7 @@ export default function Layout({ children }) {
             <h4 className="font-semibold mb-3">Společnost</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href="/tym" className="hover:text-white transition-colors">O nás</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
               <li><Link href="/kontakt" className="hover:text-white transition-colors">Kariéra</Link></li>
             </ul>
           </div>
