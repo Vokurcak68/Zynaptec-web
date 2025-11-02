@@ -219,7 +219,7 @@ export default function Kontakt() {
                   <div>
                     <p className="font-semibold">Adresa</p>
                     <p className="text-gray-300">
-                      Václavské náměstí 123<br />
+                      Školská 660/3<br />
                       110 00 Praha 1<br />
                       Česká republika
                     </p>
@@ -276,8 +276,17 @@ export default function Kontakt() {
       <section className="py-20 px-4 bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Kde nás najdete</h2>
-          <div className="bg-gray-800 rounded-2xl h-96 flex items-center justify-center">
-            <p className="text-gray-400">Interaktivní mapa</p>
+          <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.2749399!2d14.4289!3d50.0809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94eb7a67c1e7%3A0x1234567890!2s%C5%A0kolsk%C3%A1%20660%2F3%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto!5e0!3m2!1scs!2scz!4v1234567890"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Mapa - Zynaptec kancelář"
+            />
           </div>
         </div>
       </section>

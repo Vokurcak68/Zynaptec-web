@@ -10,8 +10,10 @@ export default function StructuredData() {
     description: 'AI Consulting & Machine Learning Solutions - Transformujeme budoucnost pomocí AI',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Školská 660/3',
+      addressLocality: 'Praha 1',
+      postalCode: '110 00',
       addressCountry: 'CZ',
-      addressLocality: 'Praha',
     },
     contactPoint: {
       '@type': 'ContactPoint',
