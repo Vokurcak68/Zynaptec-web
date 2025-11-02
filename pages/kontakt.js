@@ -189,8 +189,8 @@ export default function Kontakt() {
                   <div className="text-2xl">📱</div>
                   <div>
                     <p className="font-semibold">Telefon</p>
-                    <a href="tel:+420123456789" className="text-blue-400 hover:text-blue-300 transition-colors">
-                      +420 123 456 789
+                    <a href="tel:+420773788244" className="text-blue-400 hover:text-blue-300 transition-colors">
+                      +420 773 788 244
                     </a>
                   </div>
                 </div>
@@ -202,16 +202,6 @@ export default function Kontakt() {
                       Václavské náměstí 123<br />
                       110 00 Praha 1<br />
                       Česká republika
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="text-2xl">🕐</div>
-                  <div>
-                    <p className="font-semibold">Pracovní doba</p>
-                    <p className="text-gray-300">
-                      Po-Pá: 9:00 - 18:00<br />
-                      So-Ne: Zavřeno
                     </p>
                   </div>
                 </div>

@@ -140,7 +140,7 @@ export default function Layout({ children }) {
             <h4 className="font-semibold mb-3">Kontakt</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>info@zynaptec.cz</li>
-              <li>+420 123 456 789</li>
+              <li>+420 773 788 244</li>
               <li>Praha, Česká republika</li>
             </ul>
             <div className="flex gap-4 mt-4">
