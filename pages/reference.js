@@ -69,7 +69,7 @@ export default function Reference() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16"
           >
-            <h1 className="text-5xl md:text-6xl font-display mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-display mb-6 pb-2 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
               Co o nás říkají klienti
             </h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">

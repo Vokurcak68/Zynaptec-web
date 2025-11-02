@@ -62,11 +62,11 @@ export default function UkazkyProjektu() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 pb-2 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Ukázky našich projektů
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Propojujeme sílu umělé inteligence s robustností ERP systémů. 
+              Propojujeme sílu umělé inteligence s robustností ERP systémů.
               Zde jsou konkrétní příklady našich úspěšných implementací s Helios Inuvio.
             </p>
           </motion.div>

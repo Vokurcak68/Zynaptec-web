@@ -59,7 +59,7 @@ export default function Home() {
         </div>
         
         <div className="relative z-10 text-center px-4 max-w-7xl mx-auto">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 animate-fade-in">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 animate-fade-in">
             ZYNAPTEC
           </h1>
           <p className="text-2xl md:text-3xl text-gray-200 mb-8 font-light">
