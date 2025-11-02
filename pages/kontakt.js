@@ -19,19 +19,38 @@ export default function Kontakt() {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     if (!formData.name || !formData.email || !formData.message) {
       alert('Vyplňte prosím povinná pole')
       return
     }
+
     setLoading(true)
-    setTimeout(() => {
-      console.log('Odesláno:', formData)
-      setSubmitted(true)
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (response.ok) {
+        setSubmitted(true)
+        setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' })
+      } else {
+        alert(data.message || 'Nepodařilo se odeslat zprávu. Zkuste to prosím znovu.')
+      }
+    } catch (error) {
+      console.error('Chyba při odesílání:', error)
+      alert('Nepodařilo se odeslat zprávu. Zkontrolujte prosím připojení k internetu a zkuste to znovu.')
+    } finally {
       setLoading(false)
-      setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' })
-    }, 1500)
+    }
   }
 
   return (

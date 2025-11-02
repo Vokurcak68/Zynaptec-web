@@ -127,6 +127,11 @@ export default function Home() {
                 title: "AI konzultace",
                 desc: "Strategické poradenství pro implementaci AI ve vaší firmě.",
                 icon: "🎯"
+              },
+              {
+                title: "Školení a workshopy",
+                desc: "Praktická školení pro vaše týmy - od základů AI po pokročilé techniky.",
+                icon: "🎓"
               }
             ].map((feature, i) => (
               <div key={i} className="bg-gray-800 p-8 rounded-2xl hover:bg-gray-700 transition-all hover:scale-105 hover:shadow-2xl">
