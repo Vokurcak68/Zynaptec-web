@@ -199,8 +199,8 @@ export default function Sluzby() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="py-20 px-4 bg-gray-950">
+      {/* Pricing Section - Hidden */}
+      <section className="py-20 px-4 bg-gray-950 hidden">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">Flexibilní ceník</h2>
           <div className="grid md:grid-cols-3 gap-8">
