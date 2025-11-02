@@ -30,6 +30,7 @@ export default async function handler(req, res) {
     cv: 'Computer Vision',
     automation: 'Automatizace procesů',
     consulting: 'AI konzultace',
+    training: 'Školení AI',
     other: 'Jiné'
   }
 

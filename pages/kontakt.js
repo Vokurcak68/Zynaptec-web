@@ -143,9 +143,9 @@ export default function Kontakt() {
                 
                 <div>
                   <label className="block text-sm font-medium mb-2">Zájem o službu</label>
-                  <select 
-                    name="service" 
-                    value={formData.service} 
+                  <select
+                    name="service"
+                    value={formData.service}
                     onChange={handleChange}
                     className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
                   >
@@ -155,6 +155,7 @@ export default function Kontakt() {
                     <option value="cv">Computer Vision</option>
                     <option value="automation">Automatizace procesů</option>
                     <option value="consulting">AI konzultace</option>
+                    <option value="training">Školení AI</option>
                     <option value="other">Jiné</option>
                   </select>
                 </div>
