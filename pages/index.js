@@ -143,9 +143,9 @@ export default function Home() {
       <section className="py-12 px-4 bg-gradient-to-r from-blue-900 to-purple-900">
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center">
           {[
-            { number: "500+", label: "Implementovaných projektů" },
+            { number: "20+", label: "Implementovaných projektů" },
             { number: "95%", label: "Spokojenost klientů" },
-            { number: "50+", label: "AI expertů" },
+            { number: "10+", label: "AI expertů" },
             { number: "24/7", label: "Podpora" }
           ].map((stat, i) => (
             <div key={i}>
