@@ -29,7 +29,7 @@ export default function Home() {
       <SEOHead
         title="AI Consulting & Machine Learning Solutions"
         description="Transformujeme budoucnost pomocí AI. Poskytujeme pokročilá řešení strojového učení, NLP, computer vision a automatizace pro moderní firmy v České republice."
-        url="https://www.zynaptec.cz"
+        url="https://zynaptec.cz"
       />
       <StructuredData />
 

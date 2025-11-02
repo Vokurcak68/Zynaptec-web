@@ -5,8 +5,8 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Zynaptec',
-    url: 'https://www.zynaptec.cz',
-    logo: 'https://www.zynaptec.cz/zynaptec-logo.png',
+    url: 'https://zynaptec.cz',
+    logo: 'https://zynaptec.cz/zynaptec-logo.png',
     description: 'AI Consulting & Machine Learning Solutions - Transformujeme budoucnost pomocí AI',
     address: {
       '@type': 'PostalAddress',
@@ -29,10 +29,10 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Zynaptec',
-    url: 'https://www.zynaptec.cz',
+    url: 'https://zynaptec.cz',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://www.zynaptec.cz/search?q={search_term_string}',
+      target: 'https://zynaptec.cz/search?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   }

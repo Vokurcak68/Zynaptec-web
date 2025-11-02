@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.zynaptec.cz/</loc>
+    <loc>https://zynaptec.cz/</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.zynaptec.cz/sluzby</loc>
+    <loc>https://zynaptec.cz/sluzby</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.zynaptec.cz/tym</loc>
+    <loc>https://zynaptec.cz/tym</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.zynaptec.cz/kontakt</loc>
+    <loc>https://zynaptec.cz/kontakt</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.zynaptec.cz/blog</loc>
+    <loc>https://zynaptec.cz/blog</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.zynaptec.cz/reference</loc>
+    <loc>https://zynaptec.cz/reference</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.zynaptec.cz/platforma</loc>
+    <loc>https://zynaptec.cz/platforma</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
