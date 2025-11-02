@@ -1,6 +1,7 @@
 
-import Head from 'next/head'
 import Layout from '../components/Layout'
+import SEOHead from '../components/SEOHead'
+import StructuredData from '../components/StructuredData'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
@@ -13,10 +14,10 @@ export default function Home() {
     const handleMouseMove = (e) => {
       setMousePosition({ x: e.clientX, y: e.clientY })
     }
-    
+
     window.addEventListener('scroll', handleScroll)
     window.addEventListener('mousemove', handleMouseMove)
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll)
       window.removeEventListener('mousemove', handleMouseMove)
@@ -25,12 +26,13 @@ export default function Home() {
 
   return (
     <Layout>
-      <Head>
-        <title>Zynaptec - AI řešení pro budoucnost</title>
-        <meta name="description" content="Pokročilá AI řešení pro automatizaci, analýzu dat a digitální transformaci" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-      </Head>
-      
+      <SEOHead
+        title="AI Consulting & Machine Learning Solutions"
+        description="Transformujeme budoucnost pomocí AI. Poskytujeme pokročilá řešení strojového učení, NLP, computer vision a automatizace pro moderní firmy v České republice."
+        url="https://www.zynaptec.cz"
+      />
+      <StructuredData />
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Animated Background */}
